@@ -5,6 +5,7 @@ on:
             - main
         paths: 
             - '.github/workflows/02*.yml'
+            
 jobs: 
     events-jobs:
         runs-on: ubuntu-latest

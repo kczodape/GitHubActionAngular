@@ -10,3 +10,8 @@ jobs:
               run: | 
                   echo Line 1
                   echo Line 2
+    Second_job:
+        runs-on: ubuntu-latest
+        steps:
+            - name: This is second job
+              run: echo creating second job

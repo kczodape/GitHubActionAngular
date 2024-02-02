@@ -4,7 +4,7 @@ on:
         branches:
             - main
         paths: 
-            - '.github/workflows/o2*.yml'
+            - '.github/workflows/02*.yml'
 jobs: 
     events-jobs:
         runs-on: ubuntu-latest
